@@ -1,0 +1,79 @@
+<template>
+	<div>
+		<div class="recommend-title">热销推荐</div>
+		<ul>
+			<router-link
+			tag="li"
+			class="item border-bottom" 
+			v-for="item of list" 
+			:key="item.id"
+			:to="'/detail/' + item.id "
+			>
+				<img class="item-img" :src="item.imgUrl"/>
+				<div class="item-info">
+					<p class="item-title">{{item.title}}</p>
+					<p class="item-desc">{{item.desc}}</p>
+					<button class="item-button">查看详情</button>
+				</div>
+			</router-link>
+		</ul>
+	</div>
+</template>
+
+<script>
+export default {
+  name: 'HomeRecommend',
+  props: {
+	  list: Array
+  },
+  
+}
+</script>
+
+<style lang="stylus" scoped>
+	@import '~styles/mixins.styl'
+	
+	.recommend-title{
+		margin-top : .2rem;
+		line-height : .8rem;
+		background :#eee;
+		text-indent : .2rem;
+		text-align :left;
+	}
+	.item{
+		overflow :hidden;
+		display :flex;
+		height :2rem;
+	}
+	.item-img{
+		width :1.85rem;
+		height :1.7rem;
+		padding :.1rem;
+	}
+	.item-info{
+		flex :1;
+		text-align :left;
+		padding :.1rem;
+		min-width :0;
+	}
+	.item-title{
+		line-height :.54rem;
+		font-size :.32rem;
+	}
+	.item-desc{
+		line-height :.4rem;
+		color :#C0C0C0;
+		margin-top :.1rem;
+		ellipsis()
+	}
+	.item-button{
+		line-height :.5rem;
+		font-size :.28rem;
+		width :1.5rem;
+		margin-top :.16rem;
+		background :#ff9300;
+		border-radius :.06rem;
+		color :#fff;
+		margin-top :.2rem;
+	}
+</style>
