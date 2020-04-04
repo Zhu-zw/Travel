@@ -27,34 +27,34 @@ export default {
 <style lang="stylus" scoped>
 	@import '~styles/mixins.styl'
 	
-	.recommend-title{
-		margin-top : .2rem;
-		line-height : .8rem;
-		background :#eee;
-		text-indent : .2rem;
-		text-align :left;
-	}
-	.item-img-wrapper{
-		overflow :hidden;
-		height :0;
-		padding-bottom :37.09%;
-	}
-	.item-img{
-		width :100%;
-	}
-	.item-info{
-		text-align :left;
-		margin-bottom :.2rem;
-	}
-	.item-title{
-		line-height :.54rem;
-		font-size :.32rem;
+	.recommend-title
+		margin-top : .2rem
+		line-height : .8rem
+		background :#eee
+		text-indent : .2rem
+		text-align :left
+	
+	.item-img-wrapper
+		overflow :hidden
+		height :0
+		padding-bottom :37.09%
+	
+	.item-img
+		width :100%
+	
+	.item-info
+		text-align :left
+		margin-bottom :.2rem
+	
+	.item-title
+		line-height :.54rem
+		font-size :.32rem
 		ellipsis()
-	}
-	.item-desc{
-		line-height :.4rem;
-		color :#C0C0C0;
+	
+	.item-desc
+		line-height :.4rem
+		color :#C0C0C0
 		ellipsis()
-	}
+	
 </style>
 

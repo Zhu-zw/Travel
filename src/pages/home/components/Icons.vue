@@ -45,13 +45,14 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  @import '~styles/varibles.styl'
-  @import '~styles/mixins.styl'
-  .icons >>> .swiper-container
-    height: 0
-    padding-bottom: 50%
-  .icons
-    margin-top: .2rem
+    @import '~styles/varibles.styl'
+    @import '~styles/mixins.styl'
+    .icons >>> .swiper-container
+        height: 0
+        padding-bottom: 50%
+    .icons
+        margin-top: .2rem
+	
     .icon
       position: relative
       overflow: hidden

@@ -74,36 +74,36 @@ export default {
 <style lang="stylus" scoped>
 	@import '~styles/varibles';
 	
-	.search{
-		height :.66rem;
-		padding :0.1rem;
-		background :$bgColor;
-	}
-	.search-input{
-		box-sizing :border-box;
-		padding :0 .1rem;
-		width :100%;
-		height :.55rem;
-		line-height :.62rem;
-		border-radius :.06rem;
-		text-align :center;
-		color :#666;
-	}
-	.search-content{
-		z-index :1;
-		overflow :hidden;
-		position :absolute;
-		top :1.58rem;
-		left :0;
-		right :0;
-		bottom :0;
-		background :#eee;
-		text-align :left;
-	}
-	.search-item{
-		line-height :.62rem;
-		padding-left :.2rem;
-		color :#666;
-		background :#fff;
-	}
+	.search
+		height :.66rem
+		padding :0.1rem
+		background :$bgColor
+	
+	.search-input
+		box-sizing :border-box
+		padding :0 .1rem
+		width :100%
+		height :.55rem
+		line-height :.62rem
+		border-radius :.06rem
+		text-align :center
+		color :#666
+	
+	.search-content
+		z-index :1
+		overflow :hidden
+		position :absolute
+		top :1.58rem
+		left :0
+		right :0
+		bottom :0
+		background :#eee
+		text-align :left
+	
+	.search-item
+		line-height :.62rem
+		padding-left :.2rem
+		color :#666
+		background :#fff
+	
 </style>

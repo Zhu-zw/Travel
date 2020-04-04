@@ -43,41 +43,40 @@ export default{
 </script>
 
 <style lang="stylus" scoped>
-@import '~styles/varibles';
-	.header-abs{
-		position :absolute;
-		left :.2rem;
-		top :.2rem;
-		width :.8rem;
-		height :.8rem;
-		border-radius :.4rem;
+@import '~styles/varibles'
+	.header-abs
+		position :absolute
+		left :.2rem
+		top :.2rem
+		width :.8rem
+		height :.8rem
+		border-radius :.4rem
 		background :rgba(0,0,0,.8)
-		line-height :.8rem;
-	}
-	.header-abs-back{
-		color :#fff;
-		font-size :.4rem;
+		line-height :.8rem
+	
+	.header-abs-back
+		color :#fff
+		font-size :.4rem
 
-	}
-	.header-fiexd{
-		z-index :2;
-		position :fixed;
-		top :0;
-		left :0;
-		right :0;
-		font-size :.32rem;
-		height :$headerHeight;
-		line-height :$headerHeight;
-		color :#fff;
+	
+	.header-fiexd
+		z-index :2
+		position :fixed
+		top :0
+		left :0
+		right :0
+		font-size :.32rem
+		height :$headerHeight
+		line-height :$headerHeight
+		color :#fff
 		background :$bgColor
 		
-	}
-	.header-fiexd-back{
-		position :absolute;
-		width :.64rem;
-		font-size :.4rem;
-		top :0;
-		left :0;
-		color :#fff;
-	}
+	.header-fiexd-back
+		position :absolute
+		width :.64rem
+		font-size :.4rem
+		top :0
+		left :0
+		color :#fff
+
 </style>

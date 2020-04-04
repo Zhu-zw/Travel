@@ -82,50 +82,52 @@ export default{
 
 <style lang="stylus" scoped>
 	@import '~styles/varibles';
-	.list{
-		overflow :hidden;
-		position :absolute;
-		top :1.75rem;
-		right :0;
-		bottom :0;
-		left :0;
-	}
+	.list
+		overflow :hidden
+		position :absolute
+		top :1.75rem
+		right :0
+		bottom :0
+		left :0
+	
 	.border-topbottom{
 		&:before
 		  {border-color :#777;}
 		&:after
 		  {border-color :#777;}
 	}
+	
 	.border-bottom{
 		&:before
 		  {border-color :#777;}
 	}
-	.title{
-		line-height :.54rem;
-		font-size :.26rem;
-		background :#eee;
-		padding-left .2rem;
-		text-align :left;
-		color :#666;
-	}
-	.button-list{
-		padding :.1rem .6rem .1rem .1rem;
-		overflow :hidden;
-	}
-	.button-wrapper{
-		float :left;
-		width :33.33%;
-	}
-	.button{
-		 margin :.1rem;
-		 text-align :center;
-		 border:.02rem solid #ccc;
-		 padding :.1rem 0; 
-		 border-radius :.06rem;
-	}
-	.item{
-		line-height :.76rem;
-		padding-left :.2rem;
-		text-align :left;
-	}
+	
+	.title
+		line-height :.54rem
+		font-size :.26rem
+		background :#eee
+		padding-left .2rem
+		text-align :left
+		color :#666
+		
+	.button-list
+		padding :.1rem .6rem .1rem .1rem
+		overflow :hidden
+	
+	.button-wrapper
+		float :left
+		width :33.33%
+		
+	.button
+		 margin :.1rem
+		 text-align :center
+		 border:.02rem solid #ccc
+		 padding :.1rem 0 
+		 border-radius :.06rem
+	
+	.item
+		line-height :.76rem
+		padding-left :.2rem
+		text-align :left
+	
 </style>

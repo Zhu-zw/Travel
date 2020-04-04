@@ -33,47 +33,47 @@ export default {
 <style lang="stylus" scoped>
 	@import '~styles/mixins.styl'
 	
-	.recommend-title{
-		margin-top : .2rem;
-		line-height : .8rem;
-		background :#eee;
-		text-indent : .2rem;
-		text-align :left;
-	}
-	.item{
-		overflow :hidden;
-		display :flex;
-		height :2rem;
-	}
-	.item-img{
-		width :1.85rem;
-		height :1.7rem;
-		padding :.1rem;
-	}
-	.item-info{
-		flex :1;
-		text-align :left;
-		padding :.1rem;
-		min-width :0;
-	}
-	.item-title{
-		line-height :.54rem;
-		font-size :.32rem;
-	}
-	.item-desc{
-		line-height :.4rem;
-		color :#C0C0C0;
-		margin-top :.1rem;
+	.recommend-title
+		margin-top : .2rem
+		line-height : .8rem
+		background :#eee
+		text-indent : .2rem
+		text-align :left
+	
+	.item
+		overflow :hidden
+		display :flex
+		height :2rem
+	
+	.item-img
+		width :1.85rem
+		height :1.7rem
+		padding :.1rem
+	
+	.item-info
+		flex :1
+		text-align :left
+		padding :.1rem
+		min-width :0
+	
+	.item-title
+		line-height :.54rem
+		font-size :.32rem
+	
+	.item-desc
+		line-height :.4rem
+		color :#C0C0C0
+		margin-top :.1rem
 		ellipsis()
-	}
-	.item-button{
-		line-height :.5rem;
-		font-size :.28rem;
-		width :1.5rem;
-		margin-top :.16rem;
-		background :#ff9300;
-		border-radius :.06rem;
-		color :#fff;
-		margin-top :.2rem;
-	}
+	
+	.item-button
+		line-height :.5rem
+		font-size :.28rem
+		width :1.5rem
+		margin-top :.16rem
+		background :#ff9300
+		border-radius :.06rem
+		color :#fff
+		margin-top :.2rem
+	
 </style>

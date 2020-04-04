@@ -29,40 +29,41 @@ export default{
 <style lang="stylus" scoped>
 	@import '~styles/varibles';
 	
-	.header{
-		display :flex;
-		line-height : .7rem;
-		background : $bgColor;
-		color : #fff ;
-	}
+	.header
+		display :flex
+		line-height : .7rem
+		background : $bgColor
+		color : #fff 
+	
 	.header-left{
-		width : .64rem;
-		float :left;
+		width : .64rem
+		float :left
 		.back-icon{
 			text-align : center;
 			font-size : .4rem;
 		}
 	}
-	.header-input{
-		flex : 1 ;
-		height : .64rem;
-		line-height : .64rem;
-		margin-top  .12rem;
-		margin-left : .2rem;
-		background : #fff;
-		border-radius : .1rem;
-		color : #ccc;
-		text-align : left;
-		padding-left : .2rem;
-	}
-	.header-right{
-		min-width :1.04rem;
-		padding :.1rem;
-		float :right;
-		color :#fff;
-	}
-	.arrow-icon{
-		font-size : .30rem;
-	}
+	
+	.header-input
+		flex : 1 
+		height : .64rem
+		line-height : .64rem
+		margin-top  .12rem
+		margin-left : .2rem
+		background : #fff
+		border-radius : .1rem
+		color : #ccc
+		text-align : left
+		padding-left : .2rem
+	
+	.header-right
+		min-width :1.04rem
+		padding :.1rem
+		float :right
+		color :#fff
+	
+	.arrow-icon
+		font-size : .30rem
+	
 </style>
 
